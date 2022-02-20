@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
+import { Form, Button } from 'react-bootstrap'
+
+import '../Contact/contact.css'
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [formState, setFormState] = useState({ firstName: '', lastName: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+  const { firstName, lastName, email, message } = formState;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -37,29 +40,44 @@ function ContactForm() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
+<div className='contact-form'> 
+
+
+<Form id="contact-form" className='p-3' onSubmit={handleSubmit}>
+
+  <p>Fill out the contact form below to get in touch!</p>
+
+<Form.Group className="mb-3" controlId="firstName">
+  <Form.Label defaultValue={firstName}>First Name</Form.Label>
+  <Form.Control type="first-name" placeholder="First Name" />
+</Form.Group>
+
+<Form.Group className="mb-3" controlId="lastName">
+  <Form.Label defaultValue={lastName}>Last Name</Form.Label>
+  <Form.Control type="last-name" placeholder="Last Name" onBlur={handleChange}/>
+</Form.Group>
+
+<Form.Group className="mb-3" controlId="formBasicEmail">
+  <Form.Label>Email address</Form.Label>
+  <Form.Control defaultValue={ email } type="email" placeholder="Enter email" onBlur={handleChange} />
+</Form.Group>
+
+<Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label defaultValue={message}>Message</Form.Label>
+    <Form.Control as="textarea" rows={3} onBlur={handleChange} />
+  </Form.Group>
+  
+  {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
-    </section>
+
+<Button variant="primary" type="submit">
+  Submit
+</Button>
+</Form>
+</div>
   );
 }
 

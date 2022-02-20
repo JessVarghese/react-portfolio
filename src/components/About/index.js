@@ -30,7 +30,14 @@ const About = () => {
         </div>
       </div>
       <div className='about-right'>
-      <ReactRoundedImage image={Me} roundedColor="black" roundedSize="10" imageWidth="700" imageHeight="700" />
+      <ReactRoundedImage
+          image={Me}
+          roundedColor="#001219"
+          imageWidth="575"
+          imageHeight="575"
+          roundedSize="13"
+          borderRadius="70"
+        />
       </div>
     </div>
   );
