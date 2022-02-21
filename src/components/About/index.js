@@ -2,12 +2,15 @@ import React from 'react'
 import "./about.css"
 import Me from '../../img/portfolio_headshot.png'
 import ReactRoundedImage from "react-rounded-image";
-
+import { Card } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image'
 
 const About = () => {
   return (
-    <div className="about">
-      <div className="about-left">
+
+    <Card className="about pb-5">
+      <Card.Img className='card-img' roundedCircle variant="top" src={Me} />
+      
         <div className="about-left-wrapper">
             <h2 className="about-hello">Hello, my name is</h2>
             <h1 className="about-name">Jess Varghese</h1>
@@ -28,18 +31,9 @@ const About = () => {
             skills in full-stack development.
           </div>
         </div>
-      </div>
-      <div className='about-right'>
-      <ReactRoundedImage
-          image={Me}
-          roundedColor="#001219"
-          imageWidth="575"
-          imageHeight="575"
-          roundedSize="13"
-          borderRadius="70"
-        />
-      </div>
-    </div>
+      
+      
+    </Card>
   );
 }
 

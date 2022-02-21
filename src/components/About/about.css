@@ -1,24 +1,24 @@
 .about {
-    display: flex;
+    padding: 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EE9B00;
+    width: 50%;
 }
 
-.about-left{
+/* .about-left{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.about-right {
-    flex: 1px;
-    padding: 80px;
-}
+
 
 .about-left-wrapper {
-    padding: 80px;
-    /* height: 80%;
-    width: 80%; */
-    /* background-color: #94d2bd; */
+    padding: 30px;
+    
 }
 
 .about-hello {
@@ -33,6 +33,23 @@
 
 .about-desc {
     font-size: 20px;
+    padding: 10px;
+   
 
+}
+
+.card-img {
+    display: block;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+
+    
+    
+   
+   
+    
 }
 

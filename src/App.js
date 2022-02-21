@@ -5,6 +5,7 @@ import  About  from './components/About'
 import Portfolio from './components/Portfolio'
 import ContactForm from './components/Contact'
 import Resume from './components/Resume'
+import Footer from './components/Footer';
 
 import {
   BrowserRouter,
@@ -21,9 +22,9 @@ function App() {
       <>
        <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand as={Link} to='/'>Jess Varghese Portfolio</Navbar.Brand>
+    <Navbar.Brand as={Link} to='/about'>Jess Varghese Portfolio</Navbar.Brand>
     <Nav className="ms-auto">
-      <Nav.Link as={Link} to='/'>Home</Nav.Link>
+      {/* <Nav.Link as={Link} to='/about'>Home</Nav.Link> */}
       <Nav.Link as={Link} to='/about'>About</Nav.Link>
       <Nav.Link as={Link} to='/portfolio'>Portfolio</Nav.Link>
       <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
@@ -31,6 +32,7 @@ function App() {
     </Nav>
     </Container>
   </Navbar>
+  <Footer />
   </>
   <div>
     <Routes>

@@ -1,83 +1,107 @@
 import React, { useState } from 'react';
 
-import { validateEmail } from '../../utils/helpers';
 import { Form, Button } from 'react-bootstrap'
 
 import '../Contact/contact.css'
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ firstName: '', lastName: '', email: '', message: '' });
+  const [form, setForm] = useState({});
+  const [errors, setErrors] = useState({});
 
-  const [errorMessage, setErrorMessage] = useState('');
-  const { firstName, lastName, email, message } = formState;
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
+  const setField = (field, value) => {
+    setForm({
+      ...form,
+      [field]: value,
+    });
+    // Check and see if errors exist, and remove them from the error object:
+    if (!!errors[field])
+      setErrors({
+        ...errors,
+        [field]: null,
+      });
   };
 
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
+  const findFormErrors = () => {
+    const { name, email, message } = form;
+    const newErrors = {};
+    // name errors
+    if (!name || name === "") newErrors.name = "cannot be blank!";
+    else if (name.length > 30) newErrors.name = "name is too long!";
+
+    // Email errors
+    if (!email || email > 5 || email < 1)
+      newErrors.email = "Please enter a valid email address";
+    else if (!/\S+@\S+\.\S+/)
+      newErrors.email = "Please enter a valid email address";
+
+    // message errors
+    if (!message || message === "") newErrors.message = "cannot be blank!";
+    else if (message.length > 100) newErrors.message = "Message is too long!";
+
+    return newErrors;
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // get our new errors
+    const newErrors = findFormErrors();
+    // Conditional logic:
+    if (Object.keys(newErrors).length > 0) {
+      // We got errors!
+      setErrors(newErrors);
     } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
+      // No errors! Put any logic here for the form submission!
+      alert("Thank you!");
     }
   };
 
   return (
-<div className='contact-form'> 
+    <div className=" mx-auto my-5 contact-form App d-flex flex-column align-items-center">
+      <h1 className="p-3">Fill out the form to get in touch!</h1>
 
+      <Form className="mx-auto my-2 " style={{ width: "300px" }}>
+        <Form.Group className="mb-3">
+          <Form.Label>Name</Form.Label>
+          <Form.Control
+            type="text"
+            onChange={(e) => setField("name", e.target.value)}
+            isInvalid={!!errors.name}
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.name}
+          </Form.Control.Feedback>
+        </Form.Group>
 
-<Form id="contact-form" className='p-3' onSubmit={handleSubmit}>
+        <Form.Group className="mb-3" controlId="formGroupEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control
+            type="email"
+            placeholder="name@example.com"
+            onChange={(e) => setField("name", e.target.value)}
+            isInvalid={!!errors.email}
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.email}
+          </Form.Control.Feedback>
+        </Form.Group>
 
-  <p>Fill out the contact form below to get in touch!</p>
+        <Form.Group>
+          <Form.Label>Message</Form.Label>
+          <Form.Control
+            type="textarea"
+            as="textarea" rows={3}
+            onChange={(e) => setField("name", e.target.value)}
+            isInvalid={!!errors.message}
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.message}
+          </Form.Control.Feedback>
+        </Form.Group>
 
-<Form.Group className="mb-3" controlId="firstName">
-  <Form.Label defaultValue={firstName}>First Name</Form.Label>
-  <Form.Control type="first-name" placeholder="First Name" />
-</Form.Group>
-
-<Form.Group className="mb-3" controlId="lastName">
-  <Form.Label defaultValue={lastName}>Last Name</Form.Label>
-  <Form.Control type="last-name" placeholder="Last Name" onBlur={handleChange}/>
-</Form.Group>
-
-<Form.Group className="mb-3" controlId="formBasicEmail">
-  <Form.Label>Email address</Form.Label>
-  <Form.Control defaultValue={ email } type="email" placeholder="Enter email" onBlur={handleChange} />
-</Form.Group>
-
-<Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label defaultValue={message}>Message</Form.Label>
-    <Form.Control as="textarea" rows={3} onBlur={handleChange} />
-  </Form.Group>
-  
-  {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-
-<Button variant="primary" type="submit">
-  Submit
-</Button>
-</Form>
-</div>
+        <Button className="m-3" type="submit" onClick={handleSubmit}>
+          Submit
+        </Button>
+      </Form>
+    </div>
   );
 }
 
