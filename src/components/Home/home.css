@@ -1,9 +1,12 @@
 
 section {
-    background-color: #EE9B00;;
-    width: 75%;
-    padding: 10px ;
+    
+    height: 50%;
+    width: 50%;
+    padding: 10px ; 
 }
+
+
 
 .home {
     position: absolute;
@@ -18,10 +21,16 @@ div {
     text-align: center;
 }
 
+.hello {
+    font-size: 30px;
+}
+
 .intro {
     color: #AE2012;
+    font-size: 60px;
 }
 
 .cred {
     font-weight: lighter;
+    font-size: 20px;
 }
