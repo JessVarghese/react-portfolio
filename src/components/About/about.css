@@ -5,7 +5,7 @@
     margin-right: auto;
     background-color: #EE9B00;
     border-radius: 100px;
-    width: 50%;
+    width: 75%;
 }
 
 /* .about-left{
@@ -28,8 +28,9 @@
 }
 
 .about-name {
+    text-align: center;
     font-size: 60px;
-    
+    padding: 5px;
 }
 
 .about-desc {

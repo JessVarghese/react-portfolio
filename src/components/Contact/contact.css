@@ -1,10 +1,43 @@
+/* 
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  
+} */
 
-.contact-form {
-    padding: 15px;
+form {
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     background-color: #EE9B00;
-    width: 50%;   
-    border-bottom: 100px;
-    border-radius: 100px;
-}
+  }
+
+  label {
+      padding: 10px;
+      width: 100%;
+      
+  }
+  
+  input {
+   
+    padding: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+    width: 40%;
+  }
+  
+  input:focus {
+    border: 1px solid ;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+  }
 
 

@@ -1,5 +1,6 @@
 .App {
-  background-color: #0A9396;
+  /* background-color: #0A9396; */
+  background-image: url(./img/page_background.jpg);
   width: 100vw;
   min-height: 100vh;
 }

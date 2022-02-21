@@ -1,0 +1,27 @@
+
+section {
+    background-color: #EE9B00;;
+    width: 75%;
+    padding: 10px ;
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+div {
+    text-align: center;
+}
+
+.intro {
+    color: #AE2012;
+}
+
+.cred {
+    font-weight: lighter;
+}

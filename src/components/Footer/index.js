@@ -10,7 +10,7 @@ export const Footer = () => {
       
 
 
-<Navbar bg="dark" variant="dark" fixed="bottom">
+<Navbar bg="dark" variant="dark">
     <Container>
     <Nav className="mx-auto">
       <div className="icon-container">
