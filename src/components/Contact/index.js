@@ -55,10 +55,10 @@ function ContactForm() {
   };
 
   return (
-    <div className=" mx-auto my-5 contact-form App d-flex flex-column align-items-center">
+    <div className=" mx-auto my-5 contact-form d-flex flex-column align-items-center">
       <h1 className="p-3">Fill out the form to get in touch!</h1>
 
-      <Form className="mx-auto my-2 " style={{ width: "300px" }}>
+      <Form className="mx-auto my-5 " style={{ width: "300px" }}>
         <Form.Group className="mb-3">
           <Form.Label>Name</Form.Label>
           <Form.Control

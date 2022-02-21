@@ -4,6 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #EE9B00;
+    border-radius: 100px;
     width: 50%;
 }
 
@@ -33,17 +34,17 @@
 
 .about-desc {
     font-size: 20px;
-    padding: 10px;
+    padding: 2px;
    
 
 }
 
 .card-img {
     display: block;
-    padding: 15px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
     
 
     
