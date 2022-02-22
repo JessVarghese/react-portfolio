@@ -1,8 +1,12 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div>
+      <Button>Download my Resume</Button>
+    </div>
+    
   )
 }
 

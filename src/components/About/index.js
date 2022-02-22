@@ -1,18 +1,22 @@
 import React from 'react'
 import "./about.css"
-import Me from '../../img/portfolio_headshot.png'
+import Me from '../../images/portfolio_headshot.png'
 import ReactRoundedImage from "react-rounded-image";
 import { Card } from 'react-bootstrap';
-
+import {Animated} from "react-animated-css";
 
 const About = () => {
   return (
-
-    <Card className="about pb-5">
-      <Card.Img className='card-img' roundedCircle variant="top" src={Me} />
+<Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
+    <section className="about pb-5">
+      
+      
       <div className="about-name">
+      <div>
+      <Card.Img className='card-img' variant="top" src={Me} />
+      </div>
       <h1>Jess Varghese</h1>
-      <h4>Experienced Digital Media Professional | Aspiring Full Stack Web Developer</h4>
+      <h4>Digital Media Professional | Full Stack Web Developer</h4>
 
       </div>
       
@@ -32,12 +36,13 @@ const About = () => {
             round table discussions, and played a key role in editing web and
             video content for client websites as a senior video producer. I am
             currently look for opportunities to combine my experience with my new
-            skills in full-stack development.
+            skills in full stack development.
           </div>
         </div>
       
       
-    </Card>
+    </section>
+    </Animated>
   );
 }
 

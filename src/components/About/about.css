@@ -1,10 +1,10 @@
 .about {
     padding: 10px;
     margin-top: auto;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
-    background-color: #EE9B00;
-    border-radius: 100px;
+    /* background-color: #EE9B00;
+    border-radius: 100px; */
     width: 75%;
 }
 
@@ -19,6 +19,7 @@
 
 .about-left-wrapper {
     padding: 30px;
+    margin-right: auto;
     
 }
 
@@ -29,13 +30,14 @@
 
 .about-name {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     padding: 5px;
 }
 
 .about-desc {
     font-size: 20px;
     padding: 2px;
+
    
 
 }
@@ -44,8 +46,9 @@
     display: block;
     padding: 10px;
     margin-left: auto;
-    margin-right: auto;
+   margin-right: auto;
     width: 25%;
+    
     
 
     
