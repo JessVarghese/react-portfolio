@@ -18,6 +18,9 @@ export const Footer = () => {
         </div>
         <div><a href="https://www.linkedin.com/in/jessvarghese/" target="_blank" title="Linkedin"><i class="fa fa-linkedin fa-3x"></i></a>
         </div>
+        <div><a href="mailto: JessVargehse@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope fa-3x"></i></a>
+        </div>
+        
     </div>
     </Nav>
     </Container>

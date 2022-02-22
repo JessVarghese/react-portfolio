@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../Contact/contact.css'
 import { validateEmail } from '../../utils/helpers';
-import { Button } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import {Animated} from "react-animated-css";
 
 function ContactForm() {
@@ -43,28 +43,33 @@ function ContactForm() {
     <div>
     <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
       {/* GetForm submissions string */}
-      <form action="https://getform.io/f/e47512c3-bab4-486c-8133-a476272784c6" method="POST" className="contact-form">
-      <h1 data-testid="h1tag" className='contact-me'>Contact me</h1>
+      <Form action="https://getform.io/f/e47512c3-bab4-486c-8133-a476272784c6" method="POST" className="contact-form">
+      <h1 data-testid="h1tag" className='contact-me p-5'>Contact me</h1>
       <h4>Fill out the form to get in touch</h4>
-        <div>
-          <label htmlFor="name">Name:</label>
+      
+      <Form.Group className="mb-1">
+          <label className="p-3" htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
+          </Form.Group>
+
+        <Form.Group className="mb-1">
+          <label className="p-3" htmlFor="email">Email:</label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows='5'  defaultValue={message} onBlur={handleChange} />
-        </div>
+          </Form.Group>
+        
+          <Form.Group className="mb-1">
+          <label className="p-2" htmlFor="message">Message:</label>
+          <textarea name="message"  defaultValue={message} onBlur={handleChange} />
+          </Form.Group>
+          
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
         <Button data-testid="button" type="submit" size="lg" variant="primary p-2 m-2">Submit</Button>
-      </form>
+      </Form>
+     
       </Animated>
     </div>
     

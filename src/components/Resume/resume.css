@@ -1,0 +1,15 @@
+
+
+
+p {
+    margin:auto;
+    padding: 2px;
+    text-align: center;
+    width: 60%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
