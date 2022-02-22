@@ -9,17 +9,16 @@ import Home from '../Home';
 import Footer from '../Footer';
 
 import {
-  BrowserRouter,
   Routes,
   Route,
   Link,
-  Navigate
+ HashRouter
 } from "react-router-dom";
 
 
 function TopNav() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className='App'>
       <>
        <Navbar bg="dark" variant="dark">
@@ -47,7 +46,7 @@ function TopNav() {
     </Routes>
   </div>
     </div>
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
