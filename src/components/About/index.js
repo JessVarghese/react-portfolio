@@ -2,8 +2,9 @@ import React from 'react'
 import "./about.css"
 import Me from '../../images/portfolio_headshot.png'
 import ReactRoundedImage from "react-rounded-image";
-import { Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import {Animated} from "react-animated-css";
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -17,7 +18,6 @@ const About = () => {
       </div>
       <h1>Jess Varghese</h1>
       <h4>Digital Media Professional | Full Stack Web Developer</h4>
-
       </div>
       
         <div className="about-left-wrapper">
@@ -39,7 +39,9 @@ const About = () => {
             skills in full stack development.
           </div>
         </div>
-      
+        <Link to="/portfolio">
+        <Button variant="outline-dark p- m-2">My Work</Button>
+        </Link>
       
     </section>
     </Animated>
