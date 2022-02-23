@@ -40,11 +40,11 @@ function ContactForm() {
 
   return (
     
-    <div>
+    <div className='form-center'>
     <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
       {/* GetForm submissions string */}
       <Form action="https://getform.io/f/e47512c3-bab4-486c-8133-a476272784c6" method="POST" className="contact-form">
-      <h1 data-testid="h1tag" className='contact-me p-5'>Contact me</h1>
+      <h1 data-testid="h1tag" className='contact-me p-4'>Contact me</h1>
       <h4>Fill out the form to get in touch</h4>
       
       <Form.Group className="mb-1">
@@ -67,7 +67,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <Button data-testid="button" type="submit" size="lg" variant="primary p-2 m-2">Submit</Button>
+        <Button data-testid="button" type="submit" size="lg" variant="primary p-2 m-4">Submit</Button>
       </Form>
      
       </Animated>

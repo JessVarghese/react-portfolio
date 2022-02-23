@@ -4,8 +4,8 @@ import "../Resume/resume.css";
 
 const Resume = () => {
   return (
-    <div>
-      <div class="p-3">
+    <div className="resume-form">
+      <div className="p-3">
         <h1>Jess Varghese</h1>
         <div className="social-icons">
           <div>

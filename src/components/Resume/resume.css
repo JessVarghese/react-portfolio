@@ -1,11 +1,17 @@
 
-
+.resume-form {
+  background-color: #EE9B00;
+    padding: 10px 10px;
+    width: 50%;
+    border-radius: 10%;
+    margin: auto;
+}
 
 p {
     margin:auto;
     padding: 2px;
     text-align: center;
-    width: 60%;
+    width: 100%;
 }
 
 .social-icons {
