@@ -51,11 +51,11 @@ function Portfolio() {
             express-handlebars, express session, handlebars, morgan, mysql2,
             requirejs, sequelize, HTML, CSS, BULMA, Boostrap, Javascript
           </Card.Subtitle>
-          <Card.Text className="p-2">
+          <Card.Text className="p-5">
             Who doesn’t love GIFs of cute cuddly cats? CatMom DotCom is a site
             intended for a user to login to view random cat GIFs, facts and get
             specific info on a particular breed of cat.
-          </Card.Text>
+            </Card.Text>
         </Card>
 
         <Card className="p-3">
