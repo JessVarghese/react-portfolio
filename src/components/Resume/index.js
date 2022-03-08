@@ -43,19 +43,14 @@ const Resume = () => {
           <div class="p-2">
             <h3>Summary</h3>
             <p>
-              Front-end web developer with 15+ years’ experience working in the
-              digital media field with the last 9 years focused on serving top
-              hospital, medical device, and medical education clients as a key
-              advisor in the implementation of their digital publishing platform
-              and video content marketing strategy. Recently earned a
-              certificate in full stack development from the UConn Coding
-              Bootcamp with newly developed skills in HTML, JavaScript, CSS,
-              React.js, Node.JS and responsive web design. Passionate about
-              building applications and learning new technologies that
-              streamline the user experience and meet client’s end goals. Known
-              to be a creative problem-solver, my strengths in collaboration,
-              meeting deadlines and project management make me a strong addition
-              to your team.
+              Front-End Web Developer with extensive experience working in the
+              digital media field. Recently earned a certificate in full-stack
+              web development from the UConn Coding Bootcamp. Creative
+              problem-solver, passionate about building applications and
+              learning new technologies that streamline the user experience and
+              meet client’s end goals. Strengths in collaboration, meeting
+              deadlines and project management make me a strong addition to your
+              team.
             </p>
           </div>
 
@@ -67,9 +62,9 @@ const Resume = () => {
             </p>
             <p>
               <strong>
-                Bachelor of Science in Communications and Mass Media
+                Bachelor of Science in Communications and Mass Media,
               </strong>{" "}
-              - 2006 Nyack College, Nyack, NY
+              Nyack College, Nyack, NY - 2006
             </p>
           </div>
 
@@ -85,16 +80,22 @@ const Resume = () => {
             <h3 class="p-2">Experience</h3>
             <h6>BROADCASTMED - Farmington, CT - October 2012 - October 2021</h6>
             <div class="p-2">
-            <p><strong>Account Executive</strong></p>
-            <p>July 2018 – October 2021</p>
+              <p>
+                <strong>Account Executive</strong>
+              </p>
+              <p>July 2018 – October 2021</p>
             </div>
             <div class="p-2">
-            <p><strong>Senior Producer</strong></p>
-            <p>January 2014 - July 2018</p>
+              <p>
+                <strong>Senior Producer</strong>
+              </p>
+              <p>January 2014 - July 2018</p>
             </div>
             <div class="p-2">
-            <p><strong>Content Editor</strong></p>
-            <p> October 2012 - January 2014</p>
+              <p>
+                <strong>Content Editor</strong>
+              </p>
+              <p> October 2012 - January 2014</p>
             </div>
           </div>
 
@@ -103,16 +104,25 @@ const Resume = () => {
               CONNECTICUT SCIENCE CENTER - Hartford, CT - June 2009 - October
               2012
             </h6>
-            <p><strong>Digital Multimedia Specialist</strong></p>
+            <p>
+              <strong>Digital Multimedia Specialist</strong>
+            </p>
           </div>
-          
+
           <div class="p-3">
             <h6>
-              CONNECTICUT PUBLIC TELEVISION - Hartford, CT - August 2006 - October
-              2008
+              CONNECTICUT PUBLIC TELEVISION - Hartford, CT - August 2006 -
+              October 2008
             </h6>
-            <p><strong>Freelance Production Assistant</strong></p>
-            <p><em>Projects | Credits: Work. Learn. Live. (Connecticut) | Critical Call for Oral Health | Aging in Place</em></p>
+            <p>
+              <strong>Freelance Production Assistant</strong>
+            </p>
+            <p>
+              <em>
+                Projects | Credits: Work. Learn. Live. (Connecticut) | Critical
+                Call for Oral Health | Aging in Place
+              </em>
+            </p>
           </div>
         </div>
       </div>
