@@ -3,6 +3,7 @@ import { Card, CardGroup, Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ProjOne from "../../images/TPP.png";
 import ProjTwo from "../../images/catmom.jpg";
+import ProjThree from "../../images/GG_thumb.jpeg"
 import Wedash from "../../images/weather_dashboard_thumb.png";
 import CommUnity from "../../images/common_unity.png";
 import ReadmeGen from "../../images/readme_gen.png";
@@ -13,7 +14,41 @@ function Portfolio() {
   return (
     <Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
       <Container>
-        <Row lg={3}>
+        <Row lg={2}>
+          <Col xs={3}>
+            <Card className="p-3">
+              <a
+                href="https://github.com/Chis517/gamers-garage"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card.Img variant="top" src={ProjThree} />
+                <Card.Body>
+                  <Card.Title>Gamers Garage</Card.Title>
+                </Card.Body>
+              </a>
+              <Card.Subtitle>
+                Technologies: MERN Stack , GraphQL, RAWG Video Games API
+              </Card.Subtitle>
+
+              <Card.Text className="mt-3">
+                Gamers Garage is an application for the user who is interested
+                in browsing a database of video games they might be interested
+                in playing.
+              </Card.Text>
+
+              <a
+                href="https://github.com/Chis517/gamers-garage"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+              </a>
+            </Card>
+          </Col>
+
+
+
           <Col xs={3}>
             <Card className="p-3">
               <a
@@ -30,7 +65,7 @@ function Portfolio() {
                 Technologies: Bulma, flaticon, RescueGroups.org API ,
                 ZipCodeAPI.com
               </Card.Subtitle>
-    
+
               <Card.Text className="mt-3">
                 The Pet Project is an application that allows a user to easily
                 find a Dog or Cat to potentially adopt. The user can use the
@@ -43,11 +78,10 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
           </Col>
-
 
           <Col xs={2}>
             <Card className="p-3">
@@ -76,11 +110,10 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
           </Col>
-
 
           <Col xs={4}>
             <Card className="p-3">
@@ -97,7 +130,7 @@ function Portfolio() {
               <Card.Subtitle>
                 Technologies: Express, Mongoose, Insomnia
               </Card.Subtitle>
-             
+
               <Card.Text className="mt-3">
                 The Common Unity Network is a social application using a NoSQL
                 database where you can create users, add friends, share thoughts
@@ -109,7 +142,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
           </Col>
@@ -146,7 +179,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
           </Col>
@@ -173,7 +206,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
           </Col>
@@ -190,10 +223,12 @@ function Portfolio() {
                   <Card.Title>Weather Dashboard</Card.Title>
                 </Card.Body>
               </a>
-              <Card.Subtitle>Technologies: jQuery, Moment.js, BULMA, HTML, Javascript</Card.Subtitle>
+              <Card.Subtitle>
+                Technologies: jQuery, Moment.js, BULMA, HTML, Javascript
+              </Card.Subtitle>
               <Card.Text className="mt-3">
-                This application provides the user a way to easily search a
-                city and have the current and five-day weather forecast displayed on
+                This application provides the user a way to easily search a city
+                and have the current and five-day weather forecast displayed on
                 the dashboard.
               </Card.Text>
               <a
@@ -201,7 +236,7 @@ function Portfolio() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
+                <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
           </Col>
