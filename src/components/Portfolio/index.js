@@ -18,7 +18,7 @@ function Portfolio() {
           <Col xs={3}>
             <Card className="p-3">
               <a
-                href="https://github.com/Chis517/gamers-garage"
+                href="https://limitless-sands-09171.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
