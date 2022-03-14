@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, CardGroup, Row, Col, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Card, Row, Col, Container } from "react-bootstrap";
+
 import ProjOne from "../../images/TPP.png";
 import ProjTwo from "../../images/catmom.jpg";
 import ProjThree from "../../images/GG_thumb.jpeg";

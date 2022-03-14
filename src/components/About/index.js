@@ -20,8 +20,13 @@ const About = () => {
 
         <div className="about-left-wrapper">
           <div className="about-desc">
-            Over the last decade I’ve gained extensive experience within the
-            digital media landscapes. In my most recent role as an Account
+         <text>
+          Over the last decade I’ve gained extensive experience within the
+            digital media landscapes.</text> 
+            <br></br>
+            <br></br>
+            <text>
+            In my most recent role as an Account
             Executive for a physician healthcare marketing company, I managed
             the company’s portfolio of top hospital, medical device, and medical
             education clients and served as a key advisor in the implementation
@@ -32,8 +37,21 @@ const About = () => {
             I managed all stages of production, produced live surgical webcasts
             to clinical round table discussions, and played a key role in
             editing web and video content for client websites as a senior video
-            producer. I am currently look for opportunities to combine my
-            experience with my new skills in full stack development.
+            producer. </text>
+            <br></br>
+            <br></br>
+            I recently earned a certificate in full-stack web
+            development from the UConn Coding Bootcamp where I developed skills
+            in HTML, JavaScript, CSS, React.js, Node.JS, and responsive web
+            design. As an innovative problem solver passionate about developing
+            apps, with a focus on mobile-first design and development, I am
+            currently looking for opportunities to combine my experience with my
+            new skills in full stack development.
+            <br></br>
+            <br></br>
+            <text>Outside of work and learning about web development, I enjoy
+              spending time with family, my dog Herbie, traveling, cooking,
+              reading non-fiction books, and going to live concerts.</text>
           </div>
         </div>
         <Link to="/portfolio">
