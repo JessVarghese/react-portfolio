@@ -3,7 +3,7 @@ import { Card, CardGroup, Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ProjOne from "../../images/TPP.png";
 import ProjTwo from "../../images/catmom.jpg";
-import ProjThree from "../../images/GG_thumb.jpeg"
+import ProjThree from "../../images/GG_thumb.jpeg";
 import Wedash from "../../images/weather_dashboard_thumb.png";
 import CommUnity from "../../images/common_unity.png";
 import ReadmeGen from "../../images/readme_gen.png";
@@ -47,8 +47,6 @@ function Portfolio() {
             </Card>
           </Col>
 
-
-
           <Col xs={3}>
             <Card className="p-3">
               <a
@@ -62,15 +60,15 @@ function Portfolio() {
                 </Card.Body>
               </a>
               <Card.Subtitle>
-                Technologies: Bulma, RescueGroups.org API ,
-                ZipAPI.us
+                Technologies: Bulma, RescueGroups.org API , ZipAPI.us
               </Card.Subtitle>
 
               <Card.Text className="mt-3">
-                The Pet Project is an application that allows a user to easily
-                find a Dog or Cat to potentially adopt. The user can use the
-                search function to select either a Dog or Cat and search for
-                those animals by location.
+                The Pet Project is a simple mobile-first application that allows
+                a user to easily find a dog or cat to potentially adopt. he user
+                can cheese with a dog or cat to search for, as well as input
+                their zip code to view the distance between their location and
+                the pet's location.
               </Card.Text>
 
               <a
