@@ -52,7 +52,7 @@ function Portfolio() {
           <Col xs={3}>
             <Card className="p-3">
               <a
-                href="https://jessvarghese.github.io/the_pet_project/"
+                href="https://jessvarghese.github.io/Pet-Project/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,8 +62,8 @@ function Portfolio() {
                 </Card.Body>
               </a>
               <Card.Subtitle>
-                Technologies: Bulma, flaticon, RescueGroups.org API ,
-                ZipCodeAPI.com
+                Technologies: Bulma, RescueGroups.org API ,
+                ZipAPI.us
               </Card.Subtitle>
 
               <Card.Text className="mt-3">
@@ -74,7 +74,7 @@ function Portfolio() {
               </Card.Text>
 
               <a
-                href="https://github.com/JessVarghese/the_pet_project"
+                href="https://jessvarghese.github.io/Pet-Project/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
