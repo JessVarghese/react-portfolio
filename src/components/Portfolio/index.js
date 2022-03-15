@@ -24,7 +24,7 @@ function Portfolio() {
               >
                 <Card.Img variant="top" src={ProjThree} />
                 <Card.Body>
-                  <Card.Title>Gamers Garage</Card.Title>
+                  <Card.Title>Gamers Garage (Currently In Development)</Card.Title>
                 </Card.Body>
               </a>
               <Card.Subtitle>
