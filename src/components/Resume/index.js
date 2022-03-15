@@ -1,5 +1,8 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Button } from "react-bootstrap";
+import pdf from "../../docs/Jess_Varghese_resume.pdf";
+import { Link } from "react-router-dom";
+
 import "../Resume/resume.css";
 
 const Resume = () => {
@@ -37,8 +40,13 @@ const Resume = () => {
           </div>
         </div>
       </div>
+      <div style={{ textAlign: "center" }}>
+        <a href={pdf} target="_blank">
+          <Button>Download Resume</Button>
+        </a>
+      </div>
 
-      <div class="p-2" className="resume-section">
+      <div class="p-4" className="resume-section">
         <div>
           <div class="p-2">
             <h3>Summary</h3>
