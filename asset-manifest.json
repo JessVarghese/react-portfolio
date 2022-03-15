@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.70585828.css",
-    "main.js": "/react-portfolio/static/js/main.10a0d665.js",
+    "main.js": "/react-portfolio/static/js/main.da66589f.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/unsplash_img_cd.jpg": "/react-portfolio/static/media/unsplash_img_cd.de415269a4f1c725c733.jpg",
     "static/media/common_unity.png": "/react-portfolio/static/media/common_unity.345613465c3beb3c77d2.png",
@@ -9,16 +9,17 @@
     "static/media/readme_gen.png": "/react-portfolio/static/media/readme_gen.1eeb1c6dd245053d156f.png",
     "static/media/password_gen.png": "/react-portfolio/static/media/password_gen.0f9567f39d18405d1567.png",
     "static/media/portfolio_headshot.png": "/react-portfolio/static/media/portfolio_headshot.5d747b235b88c209e665.png",
+    "static/media/Jess_Varghese_resume.pdf": "/react-portfolio/static/media/Jess_Varghese_resume.6c8dbd07fbc4658d5ee8.pdf",
     "static/media/page_background.jpg": "/react-portfolio/static/media/page_background.01f8e7a562d74cd3a153.jpg",
     "static/media/catmom.jpg": "/react-portfolio/static/media/catmom.55ec5bb05c8fd14edbb9.jpg",
     "static/media/GG_thumb.jpeg": "/react-portfolio/static/media/GG_thumb.15d3d2b4eeeadfb13b65.jpeg",
     "index.html": "/react-portfolio/index.html",
     "main.70585828.css.map": "/react-portfolio/static/css/main.70585828.css.map",
-    "main.10a0d665.js.map": "/react-portfolio/static/js/main.10a0d665.js.map",
+    "main.da66589f.js.map": "/react-portfolio/static/js/main.da66589f.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70585828.css",
-    "static/js/main.10a0d665.js"
+    "static/js/main.da66589f.js"
   ]
 }
