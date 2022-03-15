@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Row, Col, Container } from "react-bootstrap";
 
-import ProjOne from "../../images/TPP.png";
+import ProjOne from "../../images/unsplash_img_cd.jpg";
 import ProjTwo from "../../images/catmom.jpg";
 import ProjThree from "../../images/GG_thumb.jpeg";
 import Wedash from "../../images/weather_dashboard_thumb.png";
