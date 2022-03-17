@@ -14,9 +14,9 @@ function Portfolio() {
   return (
     <Animated animationIn="fadeInUpBig" animationOut="fadeOut" isVisible={true}>
       <Container>
-        <Row lg={2}>
-          <Col xs={3}>
-            <Card className="p-3">
+        <Row lg={3}>
+          {/* <Col xs={3}> */}
+            {/* <Card className="p-3">
               <a
                 href="https://limitless-sands-09171.herokuapp.com/"
                 target="_blank"
@@ -45,7 +45,7 @@ function Portfolio() {
                 <Card.Subtitle className="mt-3">Github Link</Card.Subtitle>
               </a>
             </Card>
-          </Col>
+          </Col> */}
 
           <Col xs={3}>
             <Card className="p-3">
