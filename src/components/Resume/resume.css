@@ -1,10 +1,11 @@
 
 .resume-form {
   background-image: url("../../images/resume_bkg.png");
+  box-shadow:inset 0 0 0 2000px rgba(252, 252, 252, 0.331);
   background-size: cover;
   margin: auto;
   /* border-radius: 3%; */
-  width: 50%;
+  width: 40%;
   
 }
 
