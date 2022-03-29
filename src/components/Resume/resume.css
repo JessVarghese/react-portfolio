@@ -1,9 +1,11 @@
 
 .resume-form {
-  background-color: #EE9B00;
+  background-image: url("../../images/resume_bkg.png");
+  background-size: cover;
   margin: auto;
-  border-radius: 3%;
+  /* border-radius: 3%; */
   width: 50%;
+  
 }
 
 p {

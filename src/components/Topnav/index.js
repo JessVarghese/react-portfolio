@@ -23,7 +23,7 @@ function TopNav() {
       <>
        <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand as={Link} to='/'>JMV</Navbar.Brand>
+    <Navbar.Brand as={Link} to='/'>Jess Varghese Portfolio</Navbar.Brand>
     <Nav className="ms-auto">
       <Nav.Link as={Link} to='/'>Home</Nav.Link>
       <Nav.Link as={Link} to='/about'>About</Nav.Link>
