@@ -7,11 +7,10 @@
 .contact-form {
 
   background-color: #EE9B00;
-  margin-top: 10%;
-  margin-left: 32%;
-  margin-right: 32%;
-  border-radius: 3%;
-  width: 35%;
+  max-width: 700px;
+    margin: auto;
+    padding: 50px;
+    border: 10px solid #f2f2f2;
   
 
 }

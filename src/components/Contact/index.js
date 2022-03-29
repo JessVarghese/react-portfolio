@@ -45,7 +45,7 @@ function ContactForm() {
       {/* GetForm submissions string */}
       <Form action="https://getform.io/f/e47512c3-bab4-486c-8133-a476272784c6" method="POST" className="contact-form">
       <h1 data-testid="h1tag" className='contact-me p-4'>Contact me</h1>
-      <h4>Fill out the form to get in touch</h4>
+      <h3>Feel free to email me at <a class="link" href="mailto:jessvarghese@gmail.com">JessVarghese@gmail.com</a><br></br> or use the form below.</h3>
       
       <Form.Group className="mb-1">
           <label className="p-3" htmlFor="name">Name:</label>
