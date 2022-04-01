@@ -207,9 +207,7 @@ function Portfolio() {
             <Card.Title>Common Unity Network</Card.Title>
             </a>
             <Card.Text>
-            Who doesn’t love GIFs of cute cuddly cats? CatMom DotCom is a
-                site intended for a user to login to view random cat GIFs, facts
-                and get specific info on a particular breed of cat.
+            The Common Unity Network is a social application using a NoSQL database where you can create users, add friends, share thoughts and reactions.
 
                 <br></br>
               <br></br>
