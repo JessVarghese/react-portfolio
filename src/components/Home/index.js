@@ -14,7 +14,7 @@ export default function Home() {
         <p>
         <h2 className="hello" class='animate__fadeIn'>Hello, my name is</h2>
             <h1 className="intro">Jess Varghese</h1>
-            <h4 className="cred">Digital Media Professional | Front End Web Developer</h4>
+            <h4 className="cred">Digital Media Professional | Front End Developer</h4>
         </p>
         <Link to="/about">
         <Button variant="outline-dark p-2 m-2">Learn About Me</Button>
