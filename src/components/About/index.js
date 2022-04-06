@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import Me from "../../images/portfolio_headshot.png";
-import ReactRoundedImage from "react-rounded-image";
 import { Card, Button } from "react-bootstrap";
 import { Animated } from "react-animated-css";
 import { Link } from "react-router-dom";
@@ -21,8 +20,13 @@ const About = () => {
         <div className="about-left-wrapper">
           <div className="about-desc">
          <text>
-          Over the last decade I’ve gained extensive experience within the
-            digital media landscapes.</text> 
+         I recently earned a certificate in full-stack web
+            development from the UConn Coding Bootcamp where I developed skills
+            in HTML, JavaScript, CSS, React.js, Node.JS, and responsive web
+            design. As an innovative problem solver passionate about developing
+            apps, with a focus on mobile-first design and development, I am
+            currently looking for opportunities to combine my experience with my
+            new skills in full stack development.</text> 
             <br></br>
             <br></br>
             <text>
@@ -38,15 +42,6 @@ const About = () => {
             to clinical round table discussions, and played a key role in
             editing web and video content for client websites as a senior video
             producer. </text>
-            <br></br>
-            <br></br>
-            I recently earned a certificate in full-stack web
-            development from the UConn Coding Bootcamp where I developed skills
-            in HTML, JavaScript, CSS, React.js, Node.JS, and responsive web
-            design. As an innovative problem solver passionate about developing
-            apps, with a focus on mobile-first design and development, I am
-            currently looking for opportunities to combine my experience with my
-            new skills in full stack development.
             <br></br>
             <br></br>
             <text>Outside of work and learning about web development, I enjoy
