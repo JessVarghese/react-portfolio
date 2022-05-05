@@ -7,7 +7,7 @@ import ProjThree from "../../images/GG_thumb.jpeg";
 import Wedash from "../../images/weather_dashboard_thumb.png";
 import CommUnity from "../../images/common_unity.png";
 import ReadmeGen from "../../images/readme_gen.png";
-import PassGen from "../../images/password_gen.png";
+import DoMem from "../../images/donut_bkg.png";
 import Thankamma from "../../images/tk_homepage.png";
 import { Animated } from "react-animated-css";
 import { Button } from "bootstrap";
@@ -128,30 +128,29 @@ function Portfolio() {
 
       <CardGroup>
         <Card>
-          <a href="https://jessvarghese.github.io/password-generator/" target="_blank"
+          <a href="https://jessvarghese.github.io/Donut-Memory-Game/" target="_blank"
                 rel="noopener noreferrer">
-            <Card.Img variant="top" src={PassGen} />
+            <Card.Img variant="top" src={DoMem} />
           </a>
           <Card.Body>
             <Card.Title>
-              <a href="https://jessvarghese.github.io/password-generator/" target="_blank"
+              <a href="https://jessvarghese.github.io/Donut-Memory-Game/" target="_blank"
                 rel="noopener noreferrer">
-              Password Generator
+              Donut Memory Game
               </a>
             </Card.Title>
             <Card.Text>
-            This application generates a random secure password based on the
-                user's selected criteria.
+            Donut Memory Game is a quick and simple game where a use can select a card and find its match. If the user finds the correct match, they will earn a point for each correct match.
 
               <br></br>
               <br></br>
               <Card.Subtitle>
-              jQuery, Moment.js, BULMA, HTML, Javascript
+               HTML, Javascript, CSS
               </Card.Subtitle>
             </Card.Text>
             <div class="p-3">
               <a
-                href="https://github.com/JessVarghese/password-generator"
+                href="https://github.com/JessVarghese/Donut-Memory-Game"
                 target="_blank"
                 title="GitHub"
                 rel="noopener noreferrer"
