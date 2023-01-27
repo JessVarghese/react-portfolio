@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import pdf from "../../docs/Jess_Varghese_resume.pdf";
+import pdf from "../../docs/JessVarghese_Resume.pdf";
 import { Link } from "react-router-dom";
 
 import "../Resume/resume.css";
@@ -85,6 +85,16 @@ const Resume = () => {
           </div>
 
           <div class="p-3">
+            <h6>
+              REBEL INTERACTIVE GROUP - Cheshire, CT - October 2021 -
+              Present
+            </h6>
+            <p>
+              <strong>Technical Project Manager</strong>
+            </p>
+          </div>
+
+          <div class="p-3">
             <h3 class="p-2">Experience</h3>
             <h6>BROADCASTMED - Farmington, CT - October 2012 - October 2021</h6>
             <div class="p-2">
@@ -117,21 +127,6 @@ const Resume = () => {
             </p>
           </div>
 
-          <div class="p-3">
-            <h6>
-              CONNECTICUT PUBLIC TELEVISION - Hartford, CT - August 2006 -
-              October 2008
-            </h6>
-            <p>
-              <strong>Freelance Production Assistant</strong>
-            </p>
-            <p>
-              <em>
-                Projects | Credits: Work. Learn. Live. (Connecticut) | Critical
-                Call for Oral Health | Aging in Place
-              </em>
-            </p>
-          </div>
         </div>
       </div>
     </div>
