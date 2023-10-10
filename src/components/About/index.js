@@ -14,39 +14,18 @@ const About = () => {
             <Card.Img className="card-img" variant="top" src={Me} />
           </div>
           <h1>Jess Varghese</h1>
-          <h4>Digital Media Professional | Front End Web Developer</h4>
+          <h4>Technical Project Manager</h4>
         </div>
 
         <div className="about-left-wrapper">
           <div className="about-desc">
          <text>
-         I recently earned a certificate in full-stack web
-            development from the UConn Coding Bootcamp where I developed skills
-            in HTML, JavaScript, CSS, React.js, Node.JS, and responsive web
-            design. As an innovative problem solver passionate about developing
-            apps, with a focus on mobile-first design and development, I am
-            currently looking for opportunities to combine my experience with my
-            new skills in full stack development.</text> 
+I am a seasoned Technical Project Manager and Account Executive with over 15 years of expertise in managing complex content management, asset, and migration projects. My skills in project management, technical leadership, and team management are complemented by my proficiency in CMS, HTML, CSS, SEO, and DAM. As an Account Executive, I successfully oversaw top healthcare clients, guiding the implementation of digital platforms and video strategies. A strong communicator, I collaborate seamlessly with UI/UX Designers, writers, and other team members, ensuring efficient project execution.</text> 
             <br></br>
             <br></br>
-            <text>
-            In my most recent role as an Account
-            Executive for a physician healthcare marketing company, I managed
-            the company’s portfolio of top hospital, medical device, and medical
-            education clients and served as a key advisor in the implementation
-            of their digital publishing platform and video content marketing
-            strategy. In addition, I directed a cross functional team comprised
-            of employees within our production, marketing, design, and
-            development departments. Prior to my promotion to Account Executive,
-            I managed all stages of production, produced live surgical webcasts
-            to clinical round table discussions, and played a key role in
-            editing web and video content for client websites as a senior video
-            producer. </text>
-            <br></br>
-            <br></br>
-            <text>Outside of work and learning about web development, I enjoy
+            <text>In my spare time, I enjoy
               spending time with family, my dog Herbie, traveling, cooking,
-              reading non-fiction books, and going to live concerts.</text>
+              reading non-fiction books, true crime podcasts, and going to live concerts.</text>
           </div>
         </div>
         <Link to="/portfolio">
