@@ -23,7 +23,7 @@ const About = () => {
 I am a seasoned Technical Project Manager and Account Executive with over 15 years of expertise in managing complex content management, asset, and migration projects. My skills in project management, technical leadership, and team management are complemented by my proficiency in CMS, HTML, CSS, SEO, and DAM. As an Account Executive, I successfully oversaw top healthcare clients, guiding the implementation of digital platforms and video strategies. A strong communicator, I collaborate seamlessly with UI/UX Designers, writers, and other team members, ensuring efficient project execution.</text> 
             <br></br>
             <br></br>
-            <text>In my spare time, I enjoy
+            <text>When I am not working, I enjoy
               spending time with family, my dog Herbie, traveling, cooking,
               reading non-fiction books, true crime podcasts, and going to live concerts.</text>
           </div>
