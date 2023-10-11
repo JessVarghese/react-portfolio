@@ -70,11 +70,16 @@ const Resume = () => {
           </div>
 
           <div class="p-3">
-            <h3>Relevant Skills</h3>
+            <h3>Core Competencies</h3>
             <p>
-              JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GitHub, MongoDB, MySQL,
-              Express, React, Node, Handlebars, jQuery, Bootstrap
+            Project Management and Planning, Technical Leadership and Mentoring, Strategic account management, Communication and Interpersonal Skills, Data Analysis and Reporting, Budget Management, Collaboration, Agile and Scrum Methodologies
             </p>
+          </div>
+          
+          <div class="p-3">
+            <h3>Technical Skills</h3>
+            <p>
+            HTML, CSS, JavaScript, GitHub, Git, Content Management Systems (CMS), WordPress, Front-End Web Development, Google Workspace, Figma, Asana            </p>
           </div>
 
 
