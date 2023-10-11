@@ -84,7 +84,11 @@ const Resume = () => {
             </p>
           </div>
 
+
           <div class="p-3">
+            <h3 class="p-2">Experience</h3>
+
+            <div class="p-3">
             <h6>
               REBEL INTERACTIVE GROUP - Cheshire, CT - October 2021 -
               Present
@@ -93,9 +97,6 @@ const Resume = () => {
               <strong>Technical Project Manager</strong>
             </p>
           </div>
-
-          <div class="p-3">
-            <h3 class="p-2">Experience</h3>
             <h6>BROADCASTMED - Farmington, CT - October 2012 - October 2021</h6>
             <div class="p-2">
               <p>
