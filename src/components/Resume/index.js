@@ -51,14 +51,7 @@ const Resume = () => {
           <div class="p-2">
             <h3>Summary</h3>
             <p>
-              Front-End Web Developer with extensive experience working in the
-              digital media field. Recently earned a certificate in full-stack
-              web development from the UConn Coding Bootcamp. Creative
-              problem-solver, passionate about building applications and
-              learning new technologies that streamline the user experience and
-              meet client’s end goals. Strengths in collaboration, meeting
-              deadlines and project management make me a strong addition to your
-              team.
+            Experienced Technical Project Manager with 15+ years of experience managing and analyzing complex content management, asset, and migration projects. Skilled in project management, technical leadership, and team management, a strong communicator with the ability to collaborate effectively with UI/UX Designers, writers, and other valuable team members. Proficient in CMS, HTML, CSS, SEO, and DAM. 
             </p>
           </div>
 
@@ -66,13 +59,13 @@ const Resume = () => {
             <h3>Education</h3>
             <p>
               <strong>Certificate, Full Stack Web Development,</strong> UConn
-              Coding Bootcamp - 2022
+              Coding Bootcamp
             </p>
             <p>
               <strong>
                 Bachelor of Science in Communications and Mass Media,
               </strong>{" "}
-              Nyack College, Nyack, NY - 2006
+              Nyack College, Nyack, NY
             </p>
           </div>
 

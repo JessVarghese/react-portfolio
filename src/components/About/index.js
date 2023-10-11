@@ -14,7 +14,7 @@ const About = () => {
             <Card.Img className="card-img" variant="top" src={Me} />
           </div>
           <h1>Jess Varghese</h1>
-          <h4>Technical Project Manager</h4>
+          <h4>Technical Project Manager | Digital Media Professional</h4>
         </div>
 
         <div className="about-left-wrapper">
