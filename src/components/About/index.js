@@ -20,7 +20,7 @@ const About = () => {
         <div className="about-left-wrapper">
           <div className="about-desc">
          <text>
-I am a seasoned Technical Project Manager and Account Executive with over 15 years of expertise in managing complex content management, asset, and migration projects. My skills in project management, technical leadership, and team management are complemented by my proficiency in CMS, HTML, CSS, SEO, and DAM. As an Account Executive, I successfully oversaw top healthcare clients, guiding the implementation of digital platforms and video strategies. A strong communicator, I collaborate seamlessly with UI/UX Designers, writers, and other team members, ensuring efficient project execution.</text> 
+I am a seasoned Technical Project Manager and digital professional with over 15 years of expertise in managing complex content management, asset, and migration projects. My skills in project management, technical leadership, and team management are complemented by my proficiency in CMS, HTML, CSS, SEO, and DAM. As an Account Executive, I successfully oversaw top healthcare clients, guiding the implementation of digital platforms and video strategies. A strong communicator, I collaborate seamlessly with UI/UX Designers, writers, and other team members, ensuring efficient project execution.</text> 
             <br></br>
             <br></br>
             <text>When I am not working, I enjoy
